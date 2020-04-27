@@ -1,4 +1,9 @@
 $(document).ready(function () {
+
+    $('.search-btn').click(function(){
+        $('.search-box').toggle(1000);
+    });
+
     $('.go-top-btn a').click(function () {
         $('html , body').animate({
             "scrollTop": "0"
